@@ -4,7 +4,8 @@
 
 #### By _**Hailey Gaylor & Devin Cooley **_
 ### Flow Chart
-![FlowChart](src/assets/images/TapHizzelFlowChart.png)
+
+![FlowChart](/src/assets/SandwhichDiagram.png)
 ## Description
 
 _This application was built to allow a user to input a message and allow other users vote on the messages. The theme of the board are breakfast sandwhiches because everyone needs a good breakfast sandwhich in their life.._
