@@ -7,14 +7,14 @@ import { HashRouter } from 'react-router-dom';
 
 
 const render = (App) => {
-    ReactDOM.render(
-        <AppContainer>
-            <HashRouter>
-                <App/>
-            </HashRouter>
-        </AppContainer>,
-        document.getElementById('react-app-root')
-    );
+ ReactDOM.render(
+  <AppContainer>
+   <HashRouter>
+    <App/>
+   </HashRouter>
+  </AppContainer>,
+  document.getElementById('react-app-root')
+ );
 };
 
 render(App);
