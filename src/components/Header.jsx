@@ -24,7 +24,6 @@ function Header() {
 
     <div style={navColor} className="nav-wrapper">
      <ul id="nav-mobile" className="left hide-on-med-and-down">
-      {/* <li><Link to='/'><i ><img style={iconStyles} src={FaceBook} alt="facebook icon"></img></i></Link></li> */}
       <li>
        <form>
         <div className="input-field">
