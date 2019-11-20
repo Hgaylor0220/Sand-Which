@@ -1,6 +1,7 @@
 import React from 'react';
 import HotIcon from './HotIcon';
 import HotButton from './HotButton';
+import NotIcon from './NotIcon';
 
 class HotSammyController extends React.Component {
  constructor(props){
@@ -31,9 +32,15 @@ class HotSammyController extends React.Component {
    for(var i=0; i<this.state.like; i++){
      arrayIcons.push(<HotIcon/>);
     }
-    console.log("Array Icons", arrayIcons);
     return arrayIcons;
   }
+  renderNotHotIcons(){
+    let arrayIcons=[];
+    for(var i=0; i<this.state.notLikes; i++){
+      arrayIcons.push(<NotIcon/>);
+     }
+     return arrayIcons;
+   }
     
 
  render(){
@@ -42,6 +49,8 @@ class HotSammyController extends React.Component {
     <HotButton onHotClick={this.handleIncrementLikes} 
      onNotHotClick={this.handleIncrementNotLikes}/>
     {this.renderHotIcons()}
+    <hr/>
+    {this.renderNotHotIcons()}
 
 
       
